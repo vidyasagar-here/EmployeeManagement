@@ -1,0 +1,70 @@
+# Java
+*.class
+*.log
+*.war
+*.jar
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+hs_err_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# IDE-specific
+.vscode/
+*.sw?
+
+# Spring Boot
+spring.log
+
+# Test reports
+test-output/
+surefire-reports/
+jacoco.exec
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Lombok config cache
+lombok.config.cache
+
+# Sonar
+.sonar/
+coverage-report/
+
+# Misc
+*.bak
+*.tmp
+*.orig
