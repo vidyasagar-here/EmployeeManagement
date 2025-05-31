@@ -1,6 +1,7 @@
 
 
 DB Details
+
 CREATE TABLE emp_schema.Employee_Personal_Details (
     People_Soft_Id INT AUTO_INCREMENT PRIMARY KEY,
     EmpID VARCHAR(20) UNIQUE NOT NULL,
@@ -13,12 +14,14 @@ CREATE TABLE emp_schema.Employee_Personal_Details (
     Address TEXT,
     Created_At TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 CREATE TABLE emp_schema.Department (
     DepartmentID INT AUTO_INCREMENT PRIMARY KEY,
     Department_Name VARCHAR(100) NOT NULL UNIQUE,
     Location VARCHAR(100),
     Created_At TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 CREATE TABLE emp_schema.Employee_Details (
     DetailID INT AUTO_INCREMENT PRIMARY KEY,
     EmpID VARCHAR(20) NOT NULL,
