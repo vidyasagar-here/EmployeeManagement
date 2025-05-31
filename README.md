@@ -55,7 +55,7 @@ INSERT INTO emp_schema.Department (Department_Name, Location) VALUES
 
 INSERT INTO emp_schema.EmployeePersonalDetails (EmpID, First_Name, Last_Name, Date_Of_Birth, Gender, Email, Phone, Address)
 VALUES
-('EMP1001', 'Rama', 'Ayodhya', '1985-04-12', 'Male', 'john.ayodhya@example.com', '1234567890', '123 Main St, BharathaVarsh '),
+('EMP1001', 'Rama', 'Ayodhya', '1985-04-12', 'Male', 'rama.ayodhya@example.com', '1234567890', '123 Main St, BharathaVarsh '),
 ('EMP1002', 'Lakshmana', 'Ayodhya', '1990-08-22', 'Male', 'lakshmana.ayodhya@example.com', '9876543210', '456 Elm St, BharathaVarsh'),
 ('EMP1003', 'Bharatha', 'Ayodhya', '1992-01-10', 'Male', 'bharatha.ayodhya@example.com', '1231231234', '789 Oak St, BharathaVarsh'),
 ('EMP1004', 'Sugriva', 'kishkinda', '1992-01-10', 'Male', 'sugriva.kishkinda@example.com', '1231231234', '789 Oak St, BharathaVarsh');
